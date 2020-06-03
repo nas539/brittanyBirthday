@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightcoral;
+    color: white;
+}
+
+img {
+    height: 110px;
+    width: 150px;
+    border: 4px solid black;
+    border-radius: 4px;
+    margin: 20px;
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+}
+
+img:hover {
+-webkit-box-shadow: 2px 3px 45px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(255, 255, 255, 1);
+    box-shadow: 2px 3px 45px 0px rgba(255, 255, 255, 1);
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    grid-auto-rows: 0.4fr 4fr 0.3fr;
+}
+
+.header {
+    text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    border: 4px solid black;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    
+}
+
+.main {
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: lightpink;
+    border: 4px solid black;
+    border-radius: 4px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 3fr;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 45px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 20px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    padding: 20px;
+    border: 4px solid black;
+    border-radius: 4px;
+}
+
+.words {
+	text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+}
+
+/*
+embed {
+    visibility: hidden;
+}
+*/
